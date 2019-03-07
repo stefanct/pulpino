@@ -187,7 +187,6 @@ module core_region
         .data_rdata_i    ( core_lsu_rdata    ),
         .data_gnt_i      ( core_lsu_gnt      ),
         .data_rvalid_i   ( core_lsu_rvalid   ),
-        .data_err_i      ( 1'b0              ),
 
         .irq_i           ( (|irq_i)          ),
         .irq_id_i        ( irq_id            ),
@@ -244,7 +243,6 @@ module core_region
       .data_rdata_i    ( core_lsu_rdata    ),
       .data_gnt_i      ( core_lsu_gnt      ),
       .data_rvalid_i   ( core_lsu_rvalid   ),
-      .data_err_i      ( 1'b0              ),
 
       .irq_i           ( (|irq_i)          ),
       .irq_id_i        ( irq_id            ),
